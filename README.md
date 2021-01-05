@@ -11,7 +11,7 @@ partially refunded 상태 오더는 DB에 저장하지 않음
 
 
 #요청사항
-1. partially refunded 상태의 주문도 처리할 수 잇게 해달라고 요청하면 수작업으로 order_code 조회->API전송->DB저장
+1. partially refunded 상태의 주문도 처리 요청받으면 수작업으로 order_code 조회->API전송->DB저장
 -> 자동으로 가져올 수 있게 처리 요청
     - 문제: 부분환불 되는 시점이 예측 불가
 2. partially fulfilled 상태 주문 역시 처리 가능하도록 요청
